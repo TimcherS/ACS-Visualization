@@ -1,0 +1,20 @@
+﻿ACSVisualization
+
+
+winexe
+C#
+.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Release\net6.0-windows\
+ACSVisualization
+none
+false
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\App.xaml
+8-7582073
+
+62-1433107976
+195630231997
+Views\AdjacencyListView.xaml;Views\AdjacencyMatrixView.xaml;Views\CameraView.xaml;Views\CostLabelView.xaml;Views\GraphView.xaml;Views\ParamView.xaml;Views\ShellView.xaml;Views\VertexView.xaml;
+
+True
+

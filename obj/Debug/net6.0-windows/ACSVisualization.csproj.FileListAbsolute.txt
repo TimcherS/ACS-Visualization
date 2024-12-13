@@ -1,0 +1,78 @@
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\ACSVisualization.exe
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\ACSVisualization.deps.json
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\ACSVisualization.runtimeconfig.json
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\ACSVisualization.dll
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\ACSVisualization.pdb
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.AssemblyReference.cache
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\AdjacencyListView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\AdjacencyMatrixView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\CameraView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\GraphView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\ParamView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\AdjacencyListView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\AdjacencyMatrixView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\CameraView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\CostLabelView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\GraphView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\ParamView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\ShellView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\VertexView.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\App.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization_MarkupCompile.cache
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization_MarkupCompile.lref
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\App.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\CostLabelView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\ShellView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\Views\VertexView.baml
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.g.resources
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.AssemblyInfoInputs.cache
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.AssemblyInfo.cs
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.CoreCompileInputs.cache
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.CopyComplete
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.dll
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\refint\ACSVisualization.dll
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.pdb
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ACSVisualization.genruntimeconfig.cache
+C:\Информатика\OOP CourseWork\DijkstraVisual\DijkstraVisualization\obj\Debug\net6.0-windows\ref\ACSVisualization.dll
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\ACSVisualization.exe
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\ACSVisualization.deps.json
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\ACSVisualization.runtimeconfig.json
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\ACSVisualization.dll
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\ACSVisualization.pdb
+C:\Информатика\ACSVisualization\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.AssemblyReference.cache
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\AdjacencyListView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\AdjacencyMatrixView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\CameraView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\GraphView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\ParamView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\AdjacencyListView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\AdjacencyMatrixView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\CameraView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\CostLabelView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\GraphView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\ParamView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\ShellView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\VertexView.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\App.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization_MarkupCompile.cache
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization_MarkupCompile.lref
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\App.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\CostLabelView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\ShellView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\Views\VertexView.baml
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.g.resources
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.AssemblyInfoInputs.cache
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.AssemblyInfo.cs
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.CoreCompileInputs.cache
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.csproj.CopyComplete
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.dll
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\refint\ACSVisualization.dll
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.pdb
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ACSVisualization.genruntimeconfig.cache
+C:\Информатика\ACSVisualization\obj\Debug\net6.0-windows\ref\ACSVisualization.dll

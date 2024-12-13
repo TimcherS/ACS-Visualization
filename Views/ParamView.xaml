@@ -1,0 +1,156 @@
+<Window x:Class="ACSVisualization.Views.ParamView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Параметры" Height="400" Width="380">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="#e8e4e4">
+        <StackPanel Margin="10">
+            <StackPanel.Resources>
+                <!-- TextBox Style -->
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="0,0,0,3" />
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Padding" Value="10,8,10,8" />
+                    <Setter Property="Background" Value="White" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Grid>
+                                    <!-- Outer Border with Label -->
+                                        <Grid>
+                                            <TextBlock Text="{TemplateBinding Tag}" FontSize="12" FontWeight="Bold" Foreground="Black" 
+                                                       Background="Transparent" Padding="2,0,2,0" 
+                                                       VerticalAlignment="Top" HorizontalAlignment="Left" 
+                                                       Margin="10,-8,0,0" />
+                                            <Border CornerRadius="6" BorderBrush="Transparent" BorderThickness="1" Background="White" Margin="8">
+                                                <ScrollViewer x:Name="PART_ContentHost" Margin="3" />
+                                            </Border>
+                                        </Grid>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <!-- TextBlock Header Style -->
+                <Style x:Key="HeaderTextBlock" TargetType="TextBlock">
+					<Setter Property="FontSize" Value="24" />
+                    <Setter Property="FontSize" Value="24" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Padding" Value="10,8,10,8" />
+                    <Setter Property="HorizontalAlignment" Value="Left" />
+                </Style>
+            </StackPanel.Resources>
+
+            <!-- Parameter Fields -->
+            <StackPanel Orientation="Vertical">
+                <!-- Fitness Function Header -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,10">
+                    <TextBlock Style="{StaticResource HeaderTextBlock}">Оценка пути</TextBlock>
+                </StackPanel>
+
+                <!-- Fitness function - priority for New Cities -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="PathLengthParam" Width="150" Tag="Поощрение длины:" />
+                </StackPanel>
+
+                <!-- Fitness function - priority for Efficiency (Less distance) -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="PathEfficiencyParam" Width="250" Tag="Поощрение эффективности:" />
+                </StackPanel>
+
+				<!--Local Rules-->
+				<StackPanel Orientation="Vertical" Margin="0,5,0,10">
+					<TextBlock Style="{StaticResource HeaderTextBlock}">Локальные правила</TextBlock>
+				</StackPanel>
+
+				<!-- ElitistWayProbability -->
+				<StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+					<TextBox Name="ElitistWayProbability" Width="255" Tag="Вероятность жадного выбора пути [0, 1]:" />
+				</StackPanel>
+
+				<!-- Eps -->
+				<StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+					<TextBox Name="Eps" Width="255" Tag="Eps [0, 1] - Испарение за переход:" />
+				</StackPanel>
+				
+
+                <!-- Main Header -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,10">
+                    <TextBlock Style="{StaticResource HeaderTextBlock}">Глобальные правила</TextBlock>
+                </StackPanel>
+
+                <!-- Time -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="Times" Width="250" Tag="Раз ищем лучший путь:" />
+                </StackPanel>
+
+                <!-- PopSize -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="PopSize" Width="320" Tag="Количество путей из которых выбираем лучший:" />
+                </StackPanel>
+				
+				<!-- EvaporationRate -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="EvaporationRate" Width="250" Tag="Evaporation Rate [0, 1]:" />
+                </StackPanel>
+
+				<!-- Not Important Header -->
+				<StackPanel Orientation="Vertical" Margin="0,5,0,10">
+					<TextBlock Style="{StaticResource HeaderTextBlock}">Вероятностная функция</TextBlock>
+				</StackPanel>
+
+                <!-- LearningRate -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="LearningRate" Width="320" Tag="Learning Rate [0, 1] - предпочтение феромонных путей:" />
+                </StackPanel>
+
+				<!-- HeuristicsParam -->
+				<StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+					<TextBox Name="HeuristicsParam" Width="290" Tag="Евристика - предпочтение коротких путей:" />
+				</StackPanel>
+
+                <!-- PheromoneInitial -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="InitialPheromone" Width="150" Tag="Начальный феромон:" />
+                </StackPanel>
+
+                <!-- Not Important Header -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,10">
+                    <TextBlock Style="{StaticResource HeaderTextBlock}">Не используется</TextBlock>
+                </StackPanel>
+
+                <!-- HillClimbIters -->
+                <StackPanel Margin="0,0,0,3" HorizontalAlignment="Left">
+                    <TextBox Name="HillClimbIters" Width="150" Tag="Hill Climb Iters:" />
+                </StackPanel>
+            </StackPanel>
+
+            <!-- OK Button -->
+            <StackPanel HorizontalAlignment="Left">
+                <Button Content="Принять" Width="150" FontSize="16" FontWeight="Bold" Background="DarkGray" Foreground="Black" Click="UpdateParams">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Height="40" CornerRadius="6" Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+			<!-- RESET Button -->
+			<StackPanel HorizontalAlignment="Left">
+				<Button Margin ="0,10,0,0" Content="Сброс" Width="150" FontSize="16" FontWeight="Bold" Background="DarkGray" Foreground="Black" Click="ResetParams">
+					<Button.Template>
+						<ControlTemplate TargetType="Button">
+							<Border Height="40" CornerRadius="6" Background="{TemplateBinding Background}">
+								<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+							</Border>
+						</ControlTemplate>
+					</Button.Template>
+				</Button>
+			</StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
